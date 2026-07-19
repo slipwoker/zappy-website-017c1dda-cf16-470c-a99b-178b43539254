@@ -768,10 +768,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 <a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
@@ -1436,15 +1436,15 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       </div>
     </div>
 
-    <div class="index-testimonials-section__grid" data-zappy-grid-align="start">
+    <div class="index-testimonials-section__grid" data-zappy-grid-align="start" style="display: grid; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); grid-template-columns: repeat(3, minmax(0, 1fr));" data-zappy-explicit-columns="true">
       <!-- Card 1 -->
-      <article class="index-testimonials-section__card" data-grid-item-index="0">
+      <article class="index-testimonials-section__card" data-grid-item-index="0" style="display: flex !important; flex-direction: column !important; justify-content: flex-end !important; align-items: stretch !important; align-self: stretch !important; height: 100% !important;">
         <div class="index-testimonials-section__quote-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path d="M6 17h3l2-4V7H5v6h3l-2 4zm8 0h3l2-4V7h-6v6h3l-2 4z"></path>
           </svg>
         </div>
-        <blockquote class="index-testimonials-section__text" style=""><br></blockquote>
+        <blockquote class="index-testimonials-section__text"><br></blockquote>
         <footer class="index-testimonials-section__author">
           <strong>יעל כהן</strong>
           <span>אמא לשתי בנות, תל אביב</span>
