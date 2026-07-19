@@ -7,41 +7,41 @@
 ## Pages
 
 ### בית
-https://my-bakery-017c1dda.zappy5.app
+https://example.com
 מחפשים מאפייה קרובה עם מאפים בעבודת יד? ב-My bakery 👩‍🍳🤍 תמצאו לחמים טריים, עוגיות שוות ופינוקים ללא גלוטן. בואו לטעום אהבה אפויה עוד היום!
 
 ### מאפים
-https://my-bakery-017c1dda.zappy5.app/bakes
+https://example.com/bakes
 המאפים שלנו יסחררו לכם את החושים! מלחמי מחמצת כפריים ועד עוגיות לוין בקרי משוגעות – כל ביס הוא חגיגה. היכנסו לתפריט המנצח שלנו והזמינו עכשיו!
 
 ### הזמנות מיוחדות
-https://my-bakery-017c1dda.zappy5.app/custom-orders
+https://example.com/custom-orders
 חולמים על עוגת חלומות לאירוע מיוחד? אצלנו תקבלו הזמנות מיוחדות בהתאמה אישית, כולל קינוחים ללא גלוטן שיהפכו כל רגע לקסום. צרו קשר ונתחיל לתכנן את המתוק הבא!
 
 ### אודות
-https://my-bakery-017c1dda.zappy5.app/about
+https://example.com/about
 מאחורי כל מאפה עומדת אהבה גדולה. הכירו את הסיפור של My bakery 👩‍🍳🤍 – ממטבח ביתי למקום מפגש חם עם תשוקה לבצקים איכותיים. בואו להתאהב מחדש באפייה!
 
 ### צור קשר
-https://my-bakery-017c1dda.zappy5.app/contact
+https://example.com/contact
 יש לכם שאלה על מאפים ללא גלוטן או סתם מתחשק לכם להזמין פינוק? נשמח לשמוע מכם! צרו קשר עם My bakery 👩‍🍳🤍 ונתפור יחד חוויה אפויה מושלמת. מהרו, המאפים מחכים!
 
 ### תודה רבה
-https://my-bakery-017c1dda.zappy5.app/thank-you
+https://example.com/thank-you
 My bakery 👩‍🍳🤍 - תודה רבה
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://my-bakery-017c1dda.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://my-bakery-017c1dda.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://my-bakery-017c1dda.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -51,8 +51,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://my-bakery-017c1dda.zappy5.app/contact
-- Endpoint: https://my-bakery-017c1dda.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -81,6 +81,6 @@ Bakery
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://my-bakery-017c1dda.zappy5.app/sitemap.xml
-- Robots: https://my-bakery-017c1dda.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://my-bakery-017c1dda.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
