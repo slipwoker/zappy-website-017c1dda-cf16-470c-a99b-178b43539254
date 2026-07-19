@@ -768,10 +768,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 <a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
@@ -1427,8 +1427,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 <section data-band-index="3" class="index-testimonials-section" data-layout-spec="בית-testimonials" id="index-testimonials-section">
   <div class="index-testimonials-section__container">
     <div class="index-testimonials-section__header">
-      <p class="zappy-editable"><span class="index-testimonials-section__label">לקוחות אוהבים</span>
-      </p><h2 class="index-testimonials-section__title">האורחים הכי מתוקים שלנו</h2>
+      <p><span class="index-testimonials-section__label">לקוחות אוהבים</span>
+      </p><h2 class="index-testimonials-section__title">האורחים הכי מתוקים שלי</h2>
       <div class="index-testimonials-section__divider" aria-hidden="true">
         <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 4" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="0" y1="2" x2="48" y2="2" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line>
@@ -1438,21 +1438,43 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 
     <div class="index-testimonials-section__grid" data-zappy-grid-align="start" style="display: grid; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); grid-template-columns: repeat(3, minmax(0, 1fr));" data-zappy-explicit-columns="true">
       <!-- Card 1 -->
-      <article class="index-testimonials-section__card" data-grid-item-index="0" style="display: flex !important; flex-direction: column !important; justify-content: flex-end !important; align-items: stretch !important; align-self: stretch !important; height: 100% !important;">
+      <article class="index-testimonials-section__card" style="background-color: rgb(250, 247, 242) !important; padding: 24px !important; box-sizing: border-box; grid-column-start: auto !important; grid-column-end: auto !important; grid-row-start: auto !important; grid-row-end: auto !important;" data-grid-item-index="0">
+        <div class="index-testimonials-section__quote-icon" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-element-id="icon-1784454431506-xbrbmh5vb-add-1784454434845-ouham4">
+            <path d="M6 17h3l2-4V7H5v6h3l-2 4zm8 0h3l2-4V7h-6v6h3l-2 4z"></path>
+          </svg>
+        </div>
+        <blockquote class="index-testimonials-section__text">&nbsp;בדיוק סיימנו לאכול את לא מבינה איזה טעים אמאללהההה💞💞</blockquote>
+        <footer class="index-testimonials-section__author">
+          <strong>יעל כהן</strong>
+          <span>אריאל שהזמינה מארז לוולנטין, באר יעקוב</span>
+        </footer>
+      </article><article class="index-testimonials-section__card" style="background-color: rgb(250, 247, 242) !important; padding: 24px !important; box-sizing: border-box; grid-column-start: auto !important; grid-column-end: auto !important; grid-row-start: auto !important; grid-row-end: auto !important;" data-grid-item-index="1">
+        <div class="index-testimonials-section__quote-icon" aria-hidden="true">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-element-id="icon-1784454431506-xbrbmh5vb">
+            <path d="M6 17h3l2-4V7H5v6h3l-2 4zm8 0h3l2-4V7h-6v6h3l-2 4z"></path>
+          </svg>
+        </div>
+        <blockquote class="index-testimonials-section__text">&nbsp;בדיוק סיימנו לאכול את לא מבינה איזה טעים אמאללהההה💞💞</blockquote>
+        <footer class="index-testimonials-section__author">
+          <strong>יעל כהן</strong>
+          <span>טקסט כאן</span>
+        </footer>
+      </article><article class="index-testimonials-section__card" data-grid-item-index="2" style="display: flex !important; flex-direction: column !important; justify-content: flex-end !important; align-items: stretch !important; align-self: stretch !important; height: 100% !important;">
         <div class="index-testimonials-section__quote-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path d="M6 17h3l2-4V7H5v6h3l-2 4zm8 0h3l2-4V7h-6v6h3l-2 4z"></path>
           </svg>
         </div>
-        <blockquote class="index-testimonials-section__text" style="">&nbsp;בדיוק סיימנו לאכול את לא מבינה איזה טעים אמאללהההה💞💞</blockquote>
+        <blockquote class="index-testimonials-section__text">&nbsp;בדיוק סיימנו לאכול את לא מבינה איזה טעים אמאללהההה💞💞</blockquote>
         <footer class="index-testimonials-section__author">
           <strong>יעל כהן</strong>
-          <span style="">אריאל שהזמינה מארז לוולנטיין, באר יעקוב</span>
+          <span>אריאל שהזמינה מארז לוולנטיין, באר יעקוב</span>
         </footer>
       </article>
 
       <!-- Card 2 -->
-      <article class="index-testimonials-section__card index-testimonials-section__card--staggered" data-grid-item-index="1">
+      <article class="index-testimonials-section__card index-testimonials-section__card--staggered" data-grid-item-index="3">
         <div class="index-testimonials-section__quote-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path d="M6 17h3l2-4V7H5v6h3l-2 4zm8 0h3l2-4V7h-6v6h3l-2 4z"></path>
@@ -1468,7 +1490,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       </article>
 
       <!-- Card 3 -->
-      <article class="index-testimonials-section__card" data-grid-item-index="2">
+      <article class="index-testimonials-section__card" data-grid-item-index="4">
         <div class="index-testimonials-section__quote-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path d="M6 17h3l2-4V7H5v6h3l-2 4zm8 0h3l2-4V7h-6v6h3l-2 4z"></path>
